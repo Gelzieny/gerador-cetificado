@@ -1,59 +1,87 @@
-# GeradorCetificado
+<p alig
+n="center">
+  <a href="#">
+    📜 Geração de Certificados
+  </a>
+</p>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.
+<p align="justify">
 
-## Development server
+Aplicação web desenvolvida em **Angular** durante o **curso de Angular da Rocketseat**, com foco em boas práticas de desenvolvimento e componentização.  
+O sistema permite cadastrar alunos, adicionar atividades e gerar certificados automaticamente, além de consultar o histórico de certificados já emitidos.
 
-To start a local development server, run:
+</p>
+
+🔗 **Links úteis**
+
+* 🎨 [Protótipo no Figma](https://www.figma.com/design/1F8zPnBBppQo3eyWzrBjOZ/Gest%C3%A3o-de-Certificados--Community---Copy-?t=3nSu6Q44gT0Awa8C-0)
+* 🚀 [Projeto em Produção]()
+
+
+## 🚀 Funcionalidades
+
+* Cadastro de certificados com **nome do aluno** e **lista de atividades**.
+* Inclusão e exclusão dinâmica de atividades.
+* Listagem de certificados já emitidos.
+* Visualização individual de cada certificado.
+* Interface moderna e responsiva.
+
+
+## 📸 Screenshots
+
+### 🔹 Geração de Certificado
+
+<img src=".github/images/" alt="Tela de geração de certificado" width="800"/>
+
+### 🔹 Lista de Certificados
+
+<img src=".github/images/" alt="Tela de lista de certificados" width="800"/>
+
+
+## 🛠️ Tecnologias Utilizadas
+
+* [Angular](https://angular.io/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [RxJS](https://rxjs.dev/)
+* [HTML5 e CSS3](https://developer.mozilla.org/pt-BR/docs/Web)
+* [Bootstrap](https://getbootstrap.com/)
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+<p align="justify">Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:</p>
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,vscode" />
+</a>
+
+
+### 🛠️ Como usar
+
+Siga os passos abaixo para executar o projeto localmente:
 
 ```bash
+# Clone o repositório
+git clone https://github.com/Gelzieny/gerador-cetificado.git
+
+# Acesse a pasta do projeto
+cd gerador-cetificado.git
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
 ng serve
+
+# Abra o navegador e acesse
+http://localhost:4200
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+# 🧑🏻‍💻 Autor
 
-## Code scaffolding
+Feito com ❤️ por Gelzieny R. Martins 👋🏽 [Entre em contato!](https://www.linkedin.com/in/gelzieny-r-martins-180551106/)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📝 Licença
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto esta sobe a licença [MIT](./LICENSE).
