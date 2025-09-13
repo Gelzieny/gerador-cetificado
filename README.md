@@ -1,8 +1,7 @@
-<p align="center">
-  <a href="#">
-    📜 Geração de Certificados
-  </a>
-</p>
+<h1 align="center">
+  <img src=".github/images/logo.svg" alt="Tela de geração de certificado" width="30"/> 
+  Geração de Certificados
+</h1>
 
 <p align="justify">
 
