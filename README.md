@@ -1,5 +1,4 @@
-<p alig
-n="center">
+<p align="center">
   <a href="#">
     📜 Geração de Certificados
   </a>
@@ -31,11 +30,11 @@ O sistema permite cadastrar alunos, adicionar atividades e gerar certificados au
 
 ### 🔹 Geração de Certificado
 
-<img src=".github/images/" alt="Tela de geração de certificado" width="800"/>
+<img src=".github/images/home.png" alt="Tela de geração de certificado" width="800"/>
 
 ### 🔹 Lista de Certificados
 
-<img src=".github/images/" alt="Tela de lista de certificados" width="800"/>
+<img src=".github/images/list.png" alt="Tela de lista de certificados" width="800"/>
 
 
 ## 🛠️ Tecnologias Utilizadas
