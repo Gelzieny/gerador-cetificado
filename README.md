@@ -31,7 +31,7 @@ O sistema permite cadastrar alunos, adicionar atividades e gerar certificados au
 
 <img src=".github/images/home.png" alt="Tela de geração de certificado" width="800"/>
 
-### 🔹 Lista de Certificados
+### 🔹 Certificado
 
 <img src=".github/images/certificado.png" alt="Tela de lista de certificados" width="800"/>
 
