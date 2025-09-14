@@ -8,7 +8,7 @@ import { CertificadoService } from '../../_services/certificado.service';
 
 @Component({
   selector: 'app-certificados',
-  imports: [ItemCertificado, SecondaryButton],
+  imports: [ItemCertificado, SecondaryButton, RouterLink],
   templateUrl: './certificados.html',
   styleUrl: './certificados.css'
 })
@@ -19,6 +19,5 @@ export class Certificados implements OnInit{
 
    ngOnInit(): void {
     this.certificados = this.CertificadoService.certificados;
-    console.log(this.certificados);
   }
 }
